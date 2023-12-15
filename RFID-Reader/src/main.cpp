@@ -27,8 +27,8 @@ int MQTT_PORT = 1883;
 CustomLED led(LED_PIN);
 WiFiClient net;
 MQTTClient mqtt;
-String wifi_ssid = "mars labor";
-String wifi_password = "LaborAufDemMars2023!";
+String wifi_ssid = "FuerUploadEntfernt";
+String wifi_password = "FuerUploadEntfernt";
 String client_id = "NFC_Reader";
 MFRC522 rfid(SS_PIN, RST_PIN);
 
